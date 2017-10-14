@@ -1,0 +1,35 @@
+{
+  "name": "simple-secure-http-server",
+  "version": "1.0.0",
+  "description": "A simple and secure HTTP server, basically a secured access, using HTTP basic auth, to the web pages in public folder.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "develop": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksorathiya/simpleSecureHttpServer.git"
+  },
+  "keywords": [
+    "HTTP",
+    "SERVER",
+    "NODEJS",
+    "EXPRESS",
+    "BASIC",
+    "AUTH",
+    "AUTHENTICATION",
+    "WEBSERVER"
+  ],
+  "author": "Kartik Sorathiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksorathiya/simpleSecureHttpServer/issues"
+  },
+  "homepage": "https://github.com/ksorathiya/simpleSecureHttpServer#readme",
+  "dependencies": {
+    "express-basic-auth": "^1.1.2",
+    "http-auth": "^3.2.3"
+  }
+}
